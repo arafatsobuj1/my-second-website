@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabs</title>
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+    <!-- Tab links -->
+    <div class="tabs">
+        <button class="tabLinks" id="opened" onclick="openContent(event, 'Tutorials')">Tutorals</button>
+        <button class="tabLinks" onclick="openContent(event, 'Projects')">Projects</button>
+        <button class="tabLinks" onclick="openContent(event, 'Examples')">Examples</button>
+    </div>
+
+    <!-- Tab content -->
+    <div id="Tutorials" class="tabContent">
+        <h3 class="center">Tutorials</h3>
+        <div class="container">
+            <div id="a">
+                <div class="card">
+                    <div class="card-header">
+                        <h2><a class="collapsed card-link" data-toggle="collapse" href="#collapse1">Learn HTML</a></h2>
+                    </div>
+                    <div id="collapse1" class="collapse show" data-parent="#a">
+                        <div class="card">
+                            <div class="card-body">
+                                <ul>
+                                    <li><a href="">Item</a></li>
+                                    <li><a href="">Item</a></li>
+                                    <li><a href="">Item</a></li>
+                                    <li><a href="">Item</a></li>
+                                    <li><a href="">Item</a></li>
+                                    <li><a href="">Item</a></li>
+                                    <li><a href="">Item</a></li>
+                                    <li><a href="">Item</a></li>
+                                    <li><a href="">Item</a></li>
+                                    <li><a href="">Item</a></li>
+                                    <li><a href="">Item</a></li>
+                                    <li><a href="">Item</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header">
+                        <h2><a class="collapsed card-link" data-toggle="collapse" href="#collapse2">Learn CSS</a>
+                        </h2>
+                    </div>
+                    <div id="collapse2" class="collapse" data-parent="#a">
+                        <div class="card">
+                            <div class="card-body">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+                                incididunt ut labore
+                                et
+                                dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                                laboris nisi ut
+                                aliquip ex
+                                ea commodo consequat.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header">
+                        <h2><a class="collapsed card-link" data-toggle="collapse" href="#collapse3">Learn
+                                Responsive</a></h2>
+                    </div>
+                    <div id="collapse3" class="collapse" data-parent="#a">
+                        <div class="card">
+                            <div class="card-body">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+                                incididunt ut labore
+                                et
+                                dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                                laboris nisi ut
+                                aliquip ex
+                                ea commodo consequat.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="Projects" class="tabContent">
+        <h3 class="center">Projects</h3>
+        <div class="container">
+            <div id="b">
+                <div class="card">
+                    <div class="card-header">
+                        <h2><a class="collapsed card-link" data-toggle="collapse" href="#collapse4">HTML
+                                Projects</a></h2>
+                    </div>
+                    <div id="collapse4" class="collapse show" data-parent="#b">
+                        <div class="card-body">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+                            incididunt ut labore
+                            et
+                            dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                            laboris nisi ut
+                            aliquip ex
+                            ea commodo consequat.
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header">
+                        <h2><a class="collapsed card-link" data-toggle="collapse" href="#collapse5">CSS
+                                Projecs</a></h2>
+                    </div>
+                    <div id="collapse5" class="collapse" data-parent="#b">
+                        <div class="card-body">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+                            incididunt ut labore
+                            et
+                            dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                            laboris nisi ut
+                            aliquip ex
+                            ea commodo consequat.
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header">
+                        <h2><a class="collapsed card-link" data-toggle="collapse" href="#collapse6">Responsive
+                                Projects</a>
+                        </h2>
+                    </div>
+                    <div id="collapse6" class="collapse" data-parent="#b">
+                        <div class="card-body">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+                            incididunt ut labore
+                            et
+                            dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                            laboris nisi ut
+                            aliquip ex
+                            ea commodo consequat.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="Examples" class="tabContent">
+        <h3 class="center">Examples</h3>
+        <div class="container">
+            <div id="c">
+                <div class="card">
+                    <div class="card-header">
+                        <h2><a class="collapsed card-link" data-toggle="collapse" href="#collapse7">HTML
+                                Examples</a></h2>
+                    </div>
+                    <div id="collapse7" class="collapse show" data-parent="#c">
+                        <div class="card-body">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+                            incididunt ut labore
+                            et
+                            dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                            laboris nisi ut
+                            aliquip ex
+                            ea commodo consequat.
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header">
+                        <h2><a class="collapsed card-link" data-toggle="collapse" href="#collapse8">CSS
+                                Examples</a></h2>
+                    </div>
+                    <div id="collapse8" class="collapse" data-parent="#c">
+                        <div class="card-body">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+                            incididunt ut labore
+                            et
+                            dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                            laboris nisi ut
+                            aliquip ex
+                            ea commodo consequat.
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header">
+                        <h2><a class="collapsed card-link" data-toggle="collapse" href="#collapse9">Responsive
+                                Examples</a>
+                        </h2>
+                    </div>
+                    <div id="collapse9" class="collapse" data-parent="#c">
+                        <div class="card-body">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+                            incididunt ut labore
+                            et
+                            dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                            laboris nisi ut
+                            aliquip ex
+                            ea commodo consequat.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="jquery.min.js"></script>
+<script src="popper.min.js"></script>
+<script src="bootstrap.min.js"></script>
+<script>
+    function openContent(evt, element) {
+        // Declare all variables
+        var i, tabcontent, tablinks;
+
+        // Get all elements with class="tabcontent" and hide them
+        tabcontent = document.getElementsByClassName("tabContent");
+        for (i = 0; i < tabcontent.length; i++) {
+            tabcontent[i].style.display = "none";
+        }
+
+        // Get all elements with class="tablinks" and remove the class "active"
+        tablinks = document.getElementsByClassName("tabLinks");
+        for (i = 0; i < tablinks.length; i++) {
+            tablinks[i].className = tablinks[i].className.replace(" active", "");
+        }
+
+        // Show the current tab, and add an "active" class to the button that opened the tab
+        document.getElementById(element).style.display = "block";
+        evt.currentTarget.className += " active";
+    }
+    // Get the element with id="opened" and click on it
+    document.getElementById("opened").click();
+
+</script>
+
+</html>
